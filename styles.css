@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#clockContainer{
+    position:relative;
+    margin: auto;
+    /* border : 2px solid red; */
+    height: 40vw;
+    width:  40vw;
+    background: url(https://th.bing.com/th/id/R.942ffa18b870353b4956f863f452ab93?rik=i%2b6N7lagLsSZHQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fbcy%2f6qL%2fbcy6qLroi.gif&ehk=eND0JOo7WhQ10e2McbHgIBwhh6QT5fKUofDHXTQ%2fpWU%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background : black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.5%;
+    height:27%;
+    top: 24%;
+    left:50%;
+    opacity: 0.8;
+/*     display:none; */
+}
+#minute{
+    width: 1%;
+    height:35%;
+    top: 15%;
+    left:49.5%;
+    opacity: 0.8;
+/*     display: none; */
+}
+#second{
+    width: 0.5%;
+    height:40%;
+    top: 10%;
+    left:49.5%;
+    opacity: 0.8;
+/*     display: none; */
+}
